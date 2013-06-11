@@ -1,0 +1,32 @@
+(clojure-version)
+(println "Hello world!")
+(defn greet[] (println "Hello World!"))
+(greet)
+(defn greet[who] (println "Hello" who "!"))
+(greet "Jamie")
+(map #(/ % 0) [1, 2, 3])
+(defn greet[who] 
+(println "Hello" who "!")
+(map #(/ % 0) [1, 2, 3])
+(println "Done"))
+(greet "Jamie")
+(defn blowup[myList]
+(map #(/ % 0) myList))
+(blowup [1, 2, 3])
+(defn blowup helloclj.core=> (map #(/ % 0) [1, 2, 3])
+ArithmeticException Divide by zero  cl
+asld;fja
+0)
+(defn blowup (map #(/ % 0) [1, 2, 3]))
+(defn blowup (vector #(/ % 0) [1, 2, 3]))
+(defn blowup[myList]
+(println "blowing up?")
+(map #(/ % 0) myList)
+(println "nope, didn't blow up"))
+(blowup [1, 2, 3])
+(map #(/ % 0) [1, 2, 3])
+(defn blowup[myList]
+(map #(/ % 0) myList)
+l))
+(defn blowup[myList] (map #(/ % 0) myList))
+(blowup [1, 2, 3])
